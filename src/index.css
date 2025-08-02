@@ -2,13 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .bg-soft-skin {
+    background: linear-gradient(135deg, #e6d3bb, #f7e7ce, #fff6ed);
+  }
+}
+
 html,
 body,
 #root {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: #0f172a;
+/* background: linear-gradient(145deg, #0f172a, #3b0764, #0f172a),
+            radial-gradient(circle at 30% 30%, #7c3aed30, transparent 40%),
+            radial-gradient(circle at 70% 70%, #facc1530, transparent 40%); */
+/* background: radial-gradient(ellipse at top, #1e293b, #0f172a), 
+            radial-gradient(circle at bottom right, #3b0764, transparent); */
+/* background: linear-gradient(180deg, #f5e9dc, #d4c2b0, #e9d8c4); */
+/* background: linear-gradient(135deg, #e6d3bb, #f7e7ce, #fff6ed); */
+
   color: white;
   font-family: 'Inter', sans-serif;
 }
